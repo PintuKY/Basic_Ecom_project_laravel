@@ -1,0 +1,16 @@
+card{
+    border-radius: 50%;
+
+  /* Prevent background color leak outs */
+  -webkit-background-clip: padding-box; 
+  -moz-background-clip:    padding; 
+  background-clip:         padding-box;
+}
+card-left{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+card-right{
+    width: 80%;
+}
